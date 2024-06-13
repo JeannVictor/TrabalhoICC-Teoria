@@ -19,14 +19,28 @@ div{
     h3{
         border-left: 4px solid purple;
         padding-left: 10px;
+        border-radius: 2px;
     }
-    img{
-        width: 100;
+}
+
+div2{
+    h3{
+        border-left: 4px solid purple;
+        padding-left: 10px;
+        border-radius: 2px;
     }
 }
 
 h1{
     border-left: 4px solid purple;
     padding-left: 10px;
+    border-radius: 2px;
+}
+
+IMG.gith{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
 }
 
