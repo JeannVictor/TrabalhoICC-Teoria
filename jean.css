@@ -10,17 +10,3 @@
         border-left: 4px purple;
     }
 }
-h1, h2, h3 {
-    margin: 10px 0;
-}
-
-video {
-    width: 100%; /* Faz o vídeo ocupar toda a largura da caixa */
-    border-radius: 8px; /* Cantos arredondados do vídeo */
-}
-
-hr {
-    width: 50%;
-    border: 1px solid black;
-    margin: 20px auto; /* Centralizar o hr */
-}
