@@ -41,3 +41,18 @@ h1{
     padding-left: 10px;
     border-radius: 4px;
 }
+
+div.Tutorial{
+    h3{
+    border-left: 4px solid purple;
+    padding-left: 10px;
+    border-radius: 4px;
+    }
+}
+
+IMG.tut{
+    background-color: rgb(200, 152, 214);
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}

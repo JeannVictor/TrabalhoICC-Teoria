@@ -7,8 +7,9 @@
     <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-    <h1> Git Hub </h1>
+
+    <div class="GitHub">
+    <h1>Git Hub</h1>
     <p>
         O GitHub é uma plataforma de hospedagem de código fonte baseada em Git 
         que facilita o gerenciamento de projetos de software e colaboração 
@@ -77,7 +78,7 @@
     <br>
     </div>
 
-    <div2>
+    <div class="Git">
         <h1>Sistema de controle de versão GIT</h1>
         <p>
             O Git é um sistema de controle de versão distribuído amplamente utilizado para 
@@ -129,9 +130,9 @@
             do repositório, como versões de software estáveis ou marcos importantes.
         </p>
         <br>
-    </div2>
+    </div>
 
-    <tableComandos>
+    <table>
         <tr>
         <h1>Comandos GIT</h1>
         </tr>
@@ -295,5 +296,125 @@
     </ul>
     </tr>
     </table>
+    <br>
+
+    <div class="Tutorial">
+        <h1>Tutorial de uso GIT</h1>
+        <h3>1° Passo-Instalar o GIT no Sistema Operacional</h3>
+        <ol>
+            <li>Verificar se o git já está instalado no computador.
+
+                Para isso, abra o prompt de comando e digite o seguinte
+                comando:
+            </li>
+            <br>
+            <img src="img/gitversion.jpg" alt="VerificaçãodeInstalação" class="tut">
+            <li>
+                Se o git não estiver instalado, abra o navegador, acesse o 
+                <a href="https://www.git-scm.com/downloads">site oficial</a>
+                do GIT e faça o download do instalador do git.
+            </li>
+            <br>
+            <li>
+                Depois de baixado, clique duas vezes no arquivo para iniciar o assistente de 
+                instalação. Basta seguir as instruções na tela, clicando em Next. Ao término, 
+                clique em Finish para concluir com êxito a instalação.
+            </li>
+            <li>Abra o prompt de comando e digite os seguintes comandos no terminal:</li>
+            <br>
+            <img src="img/gitlogin.jpg" alt="logingit" class="tut">
+        </ol>
+        <h3>Criar-Configurar-Verificar um repositório</h3>
+        <ol>
+            <li>
+                Para transformar qualquer diretório em um repositório GIT, digite o seguinte
+                comando:
+            </li>
+            <img src="img/gitinitex.jpg" alt="initgit" class="tut">
+            <li>
+                Se você já tem um diretório e deseja verificar, você pode usar o 
+                comando git clone. 
+                <br>
+                Se você estiver tentando verificar um repositório local, 
+                use o seguinte comando:
+                <img src="img/gitclone1.jpg" alt="clone1" class="tut">
+                <br>
+                Se você pretende verificar um repositório armazenado remotamente, use:
+                <img src="img/clone2.jpg" alt="clone2" class="tut">
+            </li>
+        </ol>
+        <br>
+        <h3>Fluxo de Trabalho</h3>
+        <ol>
+            <li>
+                Cada repositório local consiste em três árvores: o diretório de trabalho 
+                que contém os arquivos reais; O índice que desempenha o papel de uma área de 
+                teste e o HEAD que é um ponteiro para o último commit feito pelo usuário.
+                <br>
+                Então, é assim que o fluxo de trabalho pode ser explicado: o usuário adiciona 
+                um arquivo ou alterações do diretório de trabalho para o índice (a área de teste) 
+                e uma vez revistos, o arquivo ou as alterações são finalmente comprometidos com o HEAD.
+            </li>
+        </ol>
+        <h3>Os comandos Add e Commit</h3>
+        <ol>
+            <li>
+                Alterações ou adições de arquivos propostas são adicionadas ao índice usando o comando add:
+                <br>
+                <img src="img/add.jpg" alt="add" class="tut">
+            </li>
+            <li>
+                Se você deseja fazer essas mudanças no HEAD, então você pode usar o comando commit:
+                <img src="img/add2.jpg" alt="add2" class="tut">
+            </li>
+        </ol>
+        <h3>Os comandos Push e Remote</h3>
+        <ol>
+            <li>
+                Se você deseja enviar as informações do HEAD para o repositório remoto, precisa utilizar o
+                comando push:
+                <img src="img/push.jpg" alt="push" class="tut">
+            </li>
+            <li>
+                Se, no entanto, um repositório existente ainda não tiver sido clonado e você pretende 
+                estabelecer uma ligação entre o seu repositório e um servidor remoto, execute o seguinte 
+                comando:
+                <br>
+                <img src="img/remote.jpg" alt="remote" class="tut">
+            </li>
+        </ol>
+        <h3>Branches</h3>
+        <ol>
+            <li>
+                O objetivo principal de um branch é desenvolver novas funcionalidades, mantendo-os isolados 
+                uns dos outros. O branch padrão em qualquer projeto é sempre o master branch. Tantos branches 
+                quanto necessários podem ser criados e eventualmente mesclados ao master branch.
+                <br>
+                Um novo branch pode ser criado usando o seguinte comando:
+                <img src="img/branch.jpg" alt="branch" class="tut">
+            </li>
+            <li>
+                Para tornar o branch disponível para outros usuários, você terá que movê-lo para o repositório 
+                remoto. Para fazer isso, use o seguinte comando:
+                <img src="img/pushbranch.jpg" alt="pushbranch" class="tut">
+            </li>
+        </ol>
+        <h3>Substituindo Alterações Locais</h3>
+        <ol>
+            <li>
+                Se você acabou fazendo bagunça e precisa reverter as alterações feitas em qualquer 
+                arquivo, faça isso usando o seguinte comando:
+                <img src="img/checkout.jpg" alt="checkout" class="tut">
+            </li>
+            <li>
+                Se todas as alterações/commits locais devem ser eliminados e o master branch local 
+                for necessário para apontar para o histórico mais recente do servidor, execute os 
+                seguintes comandos:
+                <br>
+                <img src="img/fetchreset.jpg" alt="fetchreset" class="tut">
+            </li>
+        </ol>
+
+    </div>
 </body>
 </html>
