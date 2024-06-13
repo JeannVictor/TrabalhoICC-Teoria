@@ -32,7 +32,7 @@ div.Git{
 }
 
 IMG.gith{
-    width: 950px;
+    width: 850px;
     text-align: center;
 }
 
@@ -51,8 +51,8 @@ div.Tutorial{
 }
 
 IMG.tut{
-    background-color: rgb(200, 152, 214);
     border: 1px solid black;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px purple;
     border-radius: 5px;
+    text-align: left;
 }

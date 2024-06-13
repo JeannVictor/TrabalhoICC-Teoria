@@ -8,12 +8,19 @@
 </head>
 <body>
 
+    <header>
+        <a href="index.html">Início</a>
+        <a href="audio.html">Áudio</a>
+        <a href="video.html">Video</a>
+    </header>
+
     <div class="GitHub">
     <h1>Git Hub</h1>
     <p>
         O GitHub é uma plataforma de hospedagem de código fonte baseada em Git 
-        que facilita o gerenciamento de projetos de software e colaboração 
-        entre desenvolvedores.
+        que facilita o <mark>gerenciamento de projetos 
+        de software e colaboração 
+        entre desenvolvedores</mark>.
     </p>
     <br>
     <img src="img/github-simbolo-1060x565.jpg" alt="logo" class="gith">
@@ -82,8 +89,8 @@
         <h1>Sistema de controle de versão GIT</h1>
         <p>
             O Git é um sistema de controle de versão distribuído amplamente utilizado para 
-            o gerenciamento de código fonte e acompanhamento de alterações em projetos de 
-            software. Aqui estão, algumas de suas funcionalidades.
+            o <mark>de código fonte e acompanhamento de alterações em projetos de 
+            software</mark> . Aqui estão, algumas de suas funcionalidades.
         </p>
         <img src="img/logogit.jpg" alt="logogit" class="gith">
         <h3>Funcionamento Básico do Git</h3>
@@ -91,31 +98,31 @@
             O Git armazena todas as alterações feitas nos arquivos de um projeto ao longo 
             do tempo. Cada mudança é registrada como um "commit", que inclui um instantâneo 
             dos arquivos naquele momento, junto com informações como autor, mensagem de commit 
-            e um identificador único (hash).
+            e um identificador único (<i>hash</i>).
 
             Cada desenvolvedor tem uma cópia completa do repositório Git em seu computador.
-            Isso permite que trabalhem offline, realizem commits localmente e depois sincronizem 
+            Isso permite que trabalhem offline, realizem <b>commits</b> localmente e depois sincronizem 
             suas mudanças com outros repositórios remotos, como o GitHub.
         </p>
-        <h3>Ramos(Branches)</h3>
+        <h3>Ramos (<i>Branches</i>)</h3>
         <p>
             Desenvolvimento Paralelo: Os ramos permitem que várias linhas de desenvolvimento 
             ocorram simultaneamente. Integração e Fusão: Após concluir o trabalho em um ramo, 
-            é possível fundir (merge) as alterações de volta ao ramo principal ou a outro ramo.
+            é possível fundir (<i>merge</i>) as alterações de volta ao ramo principal ou a outro ramo.
             Isso mantém um histórico de desenvolvimento organizado e evita conflitos entre 
             colaboradores.
         </p>
-        <h3>Área de Staging (Index)</h3>
+        <h3>Área de Staging (<i>Index</i>)</h3>
         <p>
             Preparação de Commits: Antes de confirmar mudanças com um commit, os arquivos 
-            são adicionados à área de staging. Isso permite revisar e selecionar quais 
+            são adicionados à área de <b>staging</b>. Isso permite revisar e selecionar quais 
             mudanças devem ser incluídas no próximo commit.
         </p>
         <h3>Sincronização</h3>
         <p>
             Push e Pull: git push envia alterações locais para o repositório remoto, 
-            enquanto git pull atualiza o repositório local com mudanças feitas no repositório 
-            remoto.
+            enquanto git pull atualiza o repositório local com mudanças feitas no <b>repositório 
+            remoto</b>.
         </p>
         <h3>Integração Contínua e Automação</h3>
         <p>
@@ -126,7 +133,7 @@
         </p>
         <h3>Ramificação e Versão</h3>
         <p>
-            Tagging: Marcadores (tags) são usados para marcar pontos específicos na história 
+            Tagging: Marcadores (<i>tags</i>) são usados para marcar pontos específicos na história 
             do repositório, como versões de software estáveis ou marcos importantes.
         </p>
         <br>
@@ -309,6 +316,7 @@
             </li>
             <br>
             <img src="img/gitversion.jpg" alt="VerificaçãodeInstalação" class="tut">
+            <hr style="border: solid white">
             <li>
                 Se o git não estiver instalado, abra o navegador, acesse o 
                 <a href="https://www.git-scm.com/downloads">site oficial</a>
@@ -323,6 +331,7 @@
             <li>Abra o prompt de comando e digite os seguintes comandos no terminal:</li>
             <br>
             <img src="img/gitlogin.jpg" alt="logingit" class="tut">
+            <hr style="border: solid white">
         </ol>
         <h3>Criar-Configurar-Verificar um repositório</h3>
         <ol>
@@ -330,16 +339,20 @@
                 Para transformar qualquer diretório em um repositório GIT, digite o seguinte
                 comando:
             </li>
+            <br>
             <img src="img/gitinitex.jpg" alt="initgit" class="tut">
+            <hr style="border: solid white">
             <li>
                 Se você já tem um diretório e deseja verificar, você pode usar o 
                 comando git clone. 
                 <br>
                 Se você estiver tentando verificar um repositório local, 
                 use o seguinte comando:
+                <hr style="border: solid white">
                 <img src="img/gitclone1.jpg" alt="clone1" class="tut">
-                <br>
+                <hr style="border: solid white">
                 Se você pretende verificar um repositório armazenado remotamente, use:
+                <hr style="border: solid white">
                 <img src="img/clone2.jpg" alt="clone2" class="tut">
             </li>
         </ol>
@@ -360,12 +373,15 @@
         <ol>
             <li>
                 Alterações ou adições de arquivos propostas são adicionadas ao índice usando o comando add:
-                <br>
+                <hr style="border: solid white">
                 <img src="img/add.jpg" alt="add" class="tut">
+                <hr style="border: solid white">
             </li>
             <li>
                 Se você deseja fazer essas mudanças no HEAD, então você pode usar o comando commit:
+                <hr style="border: solid white">
                 <img src="img/add2.jpg" alt="add2" class="tut">
+                <hr style="border: solid white">
             </li>
         </ol>
         <h3>Os comandos Push e Remote</h3>
@@ -373,14 +389,17 @@
             <li>
                 Se você deseja enviar as informações do HEAD para o repositório remoto, precisa utilizar o
                 comando push:
+                <hr style="border: solid white">
                 <img src="img/push.jpg" alt="push" class="tut">
+                <hr style="border: solid white">
             </li>
             <li>
                 Se, no entanto, um repositório existente ainda não tiver sido clonado e você pretende 
                 estabelecer uma ligação entre o seu repositório e um servidor remoto, execute o seguinte 
                 comando:
-                <br>
+                <hr style="border: solid white">
                 <img src="img/remote.jpg" alt="remote" class="tut">
+                <hr style="border: solid white">
             </li>
         </ol>
         <h3>Branches</h3>
@@ -391,12 +410,16 @@
                 quanto necessários podem ser criados e eventualmente mesclados ao master branch.
                 <br>
                 Um novo branch pode ser criado usando o seguinte comando:
+                <hr style="border: solid white">
                 <img src="img/branch.jpg" alt="branch" class="tut">
+                <hr style="border: solid white">
             </li>
             <li>
                 Para tornar o branch disponível para outros usuários, você terá que movê-lo para o repositório 
                 remoto. Para fazer isso, use o seguinte comando:
+                <hr style="border: solid white">
                 <img src="img/pushbranch.jpg" alt="pushbranch" class="tut">
+                <hr style="border: solid white">
             </li>
         </ol>
         <h3>Substituindo Alterações Locais</h3>
@@ -404,14 +427,17 @@
             <li>
                 Se você acabou fazendo bagunça e precisa reverter as alterações feitas em qualquer 
                 arquivo, faça isso usando o seguinte comando:
+                <hr style="border: solid white">
                 <img src="img/checkout.jpg" alt="checkout" class="tut">
+                <hr style="border: solid white">
             </li>
             <li>
                 Se todas as alterações/commits locais devem ser eliminados e o master branch local 
                 for necessário para apontar para o histórico mais recente do servidor, execute os 
                 seguintes comandos:
-                <br>
+                <hr style="border: solid white">
                 <img src="img/fetchreset.jpg" alt="fetchreset" class="tut">
+                <hr style="border: solid white">
             </li>
         </ol>
 
