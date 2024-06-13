@@ -25,6 +25,13 @@ div{
     }
 }
 
+div2{
+    h3{
+        border-left: 4px solid purple;
+        padding-left: 10px;
+    }
+}
+
 h1{
     border-left: 4px solid purple;
     padding-left: 10px;
