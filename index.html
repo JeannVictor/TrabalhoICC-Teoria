@@ -4,176 +4,245 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial Comandos GIT</title>
+    <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
+    <div>
+    <h1> Git Hub </h1>
+    <p>
+        O GitHub é uma plataforma de hospedagem de código fonte baseada em Git 
+        que facilita o gerenciamento de projetos de software e colaboração 
+        entre desenvolvedores.
+    </p>
+    <br>
 
+    <img src="img/github-simbolo-1060x565.jpg" alt="logo" class="gith">
 
+    <h3>Repositórios</h3>
+    <p>
+        Repositórios são locais onde seu projeto é armazenado, ele possui todos 
+        os arquivos de um projeto(commits,branches tags e metadados).
+        Eles são de extrema importancia para o compartilhamento do código entre 
+        os desenvolvedores.
+    </p>
+    <h3>Git e Controle de Versão</h3>
+    <p>
+        O GitHub utiliza o sistema de controle de versão distribuído Git para gerenciar 
+        os arquivos dentro de cada repositório. O Git permite que várias pessoas trabalhem 
+        simultaneamente no mesmo projeto, gerenciando suas próprias cópias locais do repositório.
+        Histórico de Revisões: Cada alteração nos arquivos é registrada como um commit, 
+        permitindo rastrear quem fez cada mudança e quando. Ramificações (Branches): Desenvolvedores 
+        podem criar ramificações para trabalhar em novas funcionalidades ou correções sem 
+        interferir no código principal. Merge: Integração de alterações de uma ramificação 
+        de volta para a ramificação principal (como master ou main).
+    </p>
+    <h3>Colaboração e Pull Requests</h3>
+    <p>
+        Pull Request: É um mecanismo no GitHub para propor alterações no código.
+        Visando facilitar a revisão do código, a discussão de ideias e a 
+        garantia de que as mudanças não quebrem o código existente.
 
+    </p>
+    <h3>Issues e Gestão de Projetos</h3>
+    <p>
+        Issues: São usadas para acompanhar tarefas, bugs, solicitações de funcionalidades 
+        e outras melhorias no projeto. Sendo que cada issue pode ser atribuída por um 
+        colaborador,comentada, marcada com etiquetas (labels), e fechada quando resolvida.
+        
+        Gestão de Projetos:O GitHub oferece ferramentas para gerenciar projetos e acompanhar 
+        o progresso de cada item.
 
+    </p>
+    <h3>Integração Contínua e Automação</h3>
+    <p>
+        GitHub Actions: Permite configurar fluxos de trabalho automatizados, como testes 
+        automatizados, compilação de código, deploy automático, entre outros, diretamente 
+        no GitHub. Isso ajuda a manter a qualidade do código e acelerar o ciclo de desenvolvimento.
+
+    </p>
+    <h3>Segurança e Colaboração</h3>
+    <p>
+        Controle de Acesso: Repositórios podem ser públicos (acessíveis a todos) ou privados 
+        (acesso restrito a colaboradores específicos). É possível gerenciar permissões para 
+        cada membro da equipe.
+
+        Revisão de Código: A funcionalidade de revisão de código do GitHub permite que os 
+        membros da equipe revisem as alterações propostas antes da mesclagem, garantindo a 
+        qualidade do código.
+    </p>
+    <h3>Social e Comunidade</h3>
+    <p>
+        Perfil de Usuário: Cada usuário e organização no GitHub possui um perfil público 
+        ou privado que lista seus repositórios, contribuições para projetos open source, 
+        e outros detalhes.
+    </p>
+    </div>
 
 
     
     <table>
         <tr>
-    <h1>Comandos GIT</h1>
-    <h2>Git Init</h2>
+        <h1>Comandos GIT</h1>
+        </tr>
+        <td>
+    <h3>Git Init</h3>
     <ul>
         <li>
             Comando utilizado para inicializar um novo repositório.
             Ele cria uma nova instância de um repositório Git em um diretório existente ou novo.
         </li>
     </ul>
-    <h2>Git Clone</h2>
+    <h3>Git Clone</h3>
     <ul>
         <li>
             Git clone é o comando usado para criar uma cópia exata de um repositório Git.
         </li>
     </ul>
-    <h2>Git Branch</h2>
+    <h3>Git Branch</h3>
     <ul>
         <li>
             Ele permite criar, listar, renomear e excluir branches    .
         </li>
     </ul>
-    <h2>Git Checkout</h2>
+    <h3>Git Checkout</h3>
     <ul>
         <li>
             Usado principalmente para trocar de branch ou restaurar arquivos em um repositório.
         </li>
     </ul>
-    <h2>Git Status</h2>
+    <h3>Git Status</h3>
     <ul>
         <li>
             É o comando que exibe o estado atual da árvore de trabalho do Git.
             
         </li>
-        <br>
-        <img src="img/status.jpg" alt="Exemplo Status" height="300"/>
+        
     </ul>
-    <h2>Git Diff</h2>
+    <h3>Git Diff</h3>
     <ul>
         <li>
             Compara o conteúdo de arquivos no repositório em diferentes estados.
         </li>
     </ul>
-    <h2>Git Add</h2>
+    <h3>Git Add</h3>
     <ul>
         <li>
             É o comando que adiciona mudanças de arquivos à área de stage (índice).
         </li>
-        <br>
-        <img src="img/add.jpg" alt="Exemplo Add" height="300"/>
+        
     </ul>
-    <h2>Git Commit</h2>
+    <h3>Git Commit</h3>
     <ul>
         <li>
             Git commit cria um snapshot permanente das alterações preparadas no índice, 
             com uma mensagem de commit que descreve essas mudanças   .
         </li>
-        <br>
-        <img src="img/commit1.jpg" alt="Exemplo Commit1" height="300"/><img src="img/commit2.jpg" alt="Exemplo Commit2" height="300"/>
+        
     </ul>
-    <h2>Git Push</h2>
+    <h3>Git Push</h3>
     <ul>
         <li>
             É usado para enviar commits locais para um repositório remoto.
         </li>
-        <br>
-        <img src="img/add.jpg" alt="Exemplo Add" height="300"/>
+        
     </ul>
-    <h2>Git Pull</h2>
+    <h3>Git Pull</h3>
     <ul>
         <li>
             É usado para atualizar o repositório local com as mudanças 
             do repositório remoto.
         </li>
     </ul>
-    <h2>Git Revert</h2>
+    <h3>Git Revert</h3>
     <ul>
         <li>
             Cria um novo commit que desfaz as alterações introduzidas 
             por um commit anterior.
         </li>
     </ul>
-    <h2>Git Merge</h2>
+    
+    
+    <h3>Git Merge</h3>
     <ul>
         <li>
             É usado para mesclar alterações de um branch para outro branch.
         </li>
     </ul>
-    <h2>Git Stash</h2>
+    </td>
+    <td>
+    <h3>Git Stash</h3>
     <ul>
         <li>
             É utilizado para armazenar temporariamente mudanças não commitadas 
             em um espaço de trabalho Git.
         </li>
     </ul>
-    <h2>Git RM</h2>
+    <h3>Git RM</h3>
     <ul>
         <li>
             É utilizado para remover arquivos ou diretórios do controle de versão do Git.
         </li>
     </ul>
-    <h2>Git Config</h2>
+    <h3>Git Config</h3>
     <ul>
         <li>
             É utilizado para configurar variáveis de configuração do Git em 
             diferentes níveis: sistema, usuário e repositório.
         </li>
     </ul>
-    <h2>Git Reset</h2>
-    <ol>
+    <h3>Git Reset</h3>
+    <ul>
         <li>
             É usado para desfazer alterações e redefinir o estado do repositório Git.
         </li>
     </ul>
-    <h2>Git Remote</h2>
+    <h3>Git Remote</h3>
     <ul>
         <li>
             É usado para listar, adicionar e gerenciar conexões com repositórios remotos.
         </li>
     </ul>
-    <h2>Git Fetch</h2>
+    <h3>Git Fetch</h3>
     <ul>
         <li>
             É usado para baixar commits, arquivos e referências 
             de um repositório remoto para o seu repositório local.
         </li>
     </ul>
-    <h2>Git Show</h2>
+    <h3>Git Show</h3>
     <ul>
         <li>
             É utilizado para exibir informações detalhadas sobre um objeto Git específico.
         </li>
     </ul>
-    <h2>Git Help</h2>
+    <h3>Git Help</h3>
     <ul>
         <li>
             É utilizado para obter informações de ajuda detalhadas sobre comandos Git específicos.
         </li>
-        <br>
-        <img src="img/help.jpg" alt="Exemplo Help" height="300"/>
+        
     </ul>
-    <h2>Git Rebase</h2>
+    <h3>Git Rebase</h3>
     <ul>
         <li>
             É usado para reorganizar o histórico de commits em um repositório.
         </li>
     </ul>
-    <h2>Git Blame</h2>
+    <h3>Git Blame</h3>
     <ul>
         <li>
             É um comando usado  para determinar qual commit e autor 
             foram responsáveis por cada linha de um arquivo específico.
         </li>
     </ul>
-    <h2>Git Tag</h2>
+    <h3>Git Tag</h3>
     <ul>
         <li>
             É utilizado para gerenciar tags, que são marcadores usados 
-            para marcar pontos específicos na história de um repositório Git.
+            para marcar pontos específicos na história de um repositório Git.
         </li>
     </ul>
-    
+    </tr>
+    </table>
 </body>
 </html>

@@ -1,0 +1,28 @@
+
+td{
+    background-color: rgb(200, 152, 214);
+    border: 2px solid black;
+    padding: 15px;
+}
+
+tr{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+
+div{
+    h3{
+        border-left: 4px solid purple;
+        padding-left: 10px;
+    }
+    img{
+        width: 100;
+    }
+}
+
+h1{
+    border-left: 4px solid purple;
+    padding-left: 10px;
+}
+
