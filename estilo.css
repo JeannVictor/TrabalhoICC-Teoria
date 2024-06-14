@@ -14,7 +14,6 @@ tr{
     border-radius: 5px;
 }
 
-
 div.GitHub{
     h3{
         border-left: 4px solid purple;
@@ -63,6 +62,7 @@ IMG.tut{
         border-left: 4px purple;
     }
 }
+
 .audio{
     text-align: center;
     h1{
