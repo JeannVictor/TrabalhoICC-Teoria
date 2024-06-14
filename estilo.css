@@ -56,3 +56,16 @@ IMG.tut{
     border-radius: 5px;
     text-align: left;
 }
+
+.CENTRO{
+    text-align: center;
+    h1{
+        border-left: 4px purple;
+    }
+}
+.audio{
+    text-align: center;
+    h1{
+        border-left: 4px purple;
+    }
+}
